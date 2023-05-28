@@ -11,4 +11,5 @@ import org.springframework.http.HttpStatus;
 public class CustomResponse {
     private HttpStatus httpStatus;
     private String message ;
+
 }

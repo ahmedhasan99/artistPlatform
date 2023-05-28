@@ -11,3 +11,5 @@ public abstract class ArtistService {
 return new CustomResponse(HttpStatus.OK , "Login Done"  );
     }
 }
+
+

@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ArtistController {
     private ArtistService artistService;
     @GetMapping("/login")
+
     public CustomResponse login (@RequestParam UserLogin userLogin){
     return artistService.login(userLogin.getName() , userLogin.getPassword());
     }
